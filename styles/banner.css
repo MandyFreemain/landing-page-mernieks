@@ -1,0 +1,87 @@
+.banner {
+  background-image: url("../assets/slider_bg3.png");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-text {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  width: 350px;
+  padding: 10px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.banner--title-text {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  width: 220px;
+  padding: 5px;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.banner-thumbs-wrap {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.banner-arrow {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: white;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrow-next {
+  right: 0;
+}
+
+.arrow-prev {
+  left: 0;
+}
+
+.banner-thumbs {
+  box-sizing: content-box;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  background-color: black;
+  border: 2px solid #af926d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner-thumbs:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.thumbs-active {
+  background-color: rgba(240, 241, 227, 0.5);
+}

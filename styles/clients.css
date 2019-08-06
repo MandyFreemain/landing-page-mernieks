@@ -1,0 +1,10 @@
+.clients-list {
+  text-align: center;
+  margin: 40px 0 30px;
+}
+
+@media screen and (min-width: 1000px) {
+  .clients-list {
+    text-align: justify;
+  }
+}

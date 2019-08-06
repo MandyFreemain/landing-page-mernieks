@@ -1,0 +1,106 @@
+.services-prices-wrap {
+  color: #534c38;
+  margin-bottom: 41px;
+  font-size: 16px;
+}
+
+.prices-text {
+  margin: 26px 0 15px;
+  font-size: 15px;
+}
+
+.pricing-tables {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 0 25px 0;
+}
+
+.service-cell {
+  padding: 10px 0;
+  line-height: 1.4;
+}
+
+.pricing-tables tbody tr:nth-of-type(odd) {
+  background-color: #f2ebe1;
+}
+
+.right-col .pricing-tables tbody tr:last-child {
+  background-color: #EEEEEE;
+}
+
+.table-no-background td {
+  background: url(../assets/body_bg.png);
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+.right-col {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.left-col {
+  padding: 0;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.pricing-tables-border {
+  border-bottom: 1px solid #dfd9cf;
+}
+
+.service-cell:nth-child(2) {
+  font-weight: bold;
+}
+
+.service-cell:nth-child(1) {
+  font-size: 15px;
+  text-align: left;
+}
+
+.bigger-line-height {
+  line-height: 1.8;
+}
+
+.services-prices-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-prices-col {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .services-prices-row {
+    flex-wrap: wrap;
+  }
+
+  .services-prices-col {
+    width: 40%;
+  }
+
+  .right-col {
+    padding: 0 20px 0 0;
+  }
+
+  .left-col {
+    padding: 0 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .services-prices-col {
+    width: 50%;
+  }
+
+  .right-col {
+    padding: 0 20px 0 0;
+  }
+
+  .left-col {
+    padding: 0 0 0 20px;
+  }
+}

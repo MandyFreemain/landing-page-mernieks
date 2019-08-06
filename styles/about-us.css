@@ -1,0 +1,125 @@
+.about {
+  background: url(../assets/about_us_bg.png) no-repeat center;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.about-row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.about-description {
+  color: #fff;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.about-first-profile {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.about-second-profile {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 0 0 2px;
+}
+
+.profile {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 5px solid #c7a65d;
+  width: 166px;
+  height: 167px;
+}
+
+.profile-name {
+  font-size: 30px;
+  font-weight: normal;
+  color: #c7a55e;
+  border-bottom: 1px solid #877054;
+  padding: 0 0 8px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.profile-address {
+  padding: 0;
+  margin: 5px 0 28px;
+  font-style: normal;
+}
+
+.profile-contact {
+  color: #c7a45a;
+  text-decoration: none;
+}
+
+.profile-contact-email:hover {
+  text-decoration: underline;
+
+}
+
+.profile-contact-phone:hover {
+  text-decoration: underline;
+
+}
+
+.profile-description {
+  font-size: 15px;
+  margin: 0 0 13px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.certificates {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-certificates {
+  font-size: 13px;
+  color: #fff;
+  margin: 0 0 20px 0;
+  text-align: left;
+  padding: 0 0 0 70px;
+  line-height: normal;
+  background: url(../assets/sertif.png) no-repeat 35px center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .services-prices-col {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-row {
+    width: 100%;
+  }
+
+  .about-first-profile {
+    width: 50%;
+    padding: 0 20px 0 0;
+  }
+
+  .about-second-profile {
+    width: 50%;
+    justify-content: space-between;
+  }
+}
