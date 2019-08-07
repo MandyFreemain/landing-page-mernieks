@@ -133,6 +133,12 @@ legend {
   width: 100%;
 }
 
+.message-field {
+  display: flex;
+  color: #501d1d;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
 
 @media screen and (min-width: 1000px) {
   .wrapper-contacts {
